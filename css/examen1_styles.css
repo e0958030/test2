@@ -1,0 +1,120 @@
+/* El Moustarih Camilia - Examen 1 */
+
+/* Remise à zéro */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    max-width: 960px;
+    margin: auto;
+    background-color: #000000;
+    padding-top: 20px;
+}
+
+/* Styles pour le conteneur global */
+#global{
+    width: 890px;
+}
+
+/* Styles pour le header incluant une image, un h1 et un nav */
+header{
+    background-image: url("../images/points.png");
+    height: 190px;
+    border-radius: 90px;
+    border: 5px solid teal;
+}
+
+.logoAlien{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+h1{
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+h1::first-letter{
+    font-size: 90px;
+}
+
+nav{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: -145px;
+}
+
+a{
+    color: teal;
+    padding-right: 9px;
+}
+
+h1, nav{
+    font-family: "space age", sans-serif;
+    padding-right: 50px;
+    text-align: right;
+}
+
+/* Styles pour les conteneurs principaux nav incluant des balises articles, des titres h2 et h3, des paragraphes et une liste */
+#mainArticle{
+    background-image: url("../images/points.png");
+    height: 260px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    border-radius: 90px;
+    border: 5px solid teal;
+    padding-top: 10px;
+}
+
+.articleGauche{
+    width: 445px;
+    padding-right: 20px;
+    padding-left: 70px;
+}
+
+.articleDroite{
+    width: 445px;
+    padding-left: 30px;
+    padding-right: 60px;
+}
+
+.articleGauche, .articleDroite{
+    padding-top: 15px;
+}
+
+h2{
+    font-size: 23px;
+}
+
+h3{
+    font-size: 17px;
+}
+
+p{
+    font-size: 15px;
+    padding-top: 10px;
+    text-align: left;
+    word-spacing: 2px;
+}
+
+li{
+    font-size: 14px;
+    padding-right: 15px;
+    margin-left: 140px;
+    margin-top: 2px;
+}
+
+/* Styles du conteneur footer incluant l'image de monstres */
+footer{
+    border-radius: 90px;
+    border: 5px solid teal;
+    height: 150px;
+    background-image: url("../images/points.png");
+}
+
+#monstresGauche, #monstresDroite{
+    padding-top: 25px;
+}
